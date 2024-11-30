@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE configuration files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Tailwind CSS files (if generated dynamically)
+*.css.map
+
+Lock files (optional, depends on your workflow)
+Uncomment if you want to ignore lock files
+package-lock.json
+yarn.lock
+
+# Miscellaneous
+*.cache
+*.log
+
+# Coverage files (if you use testing tools)
+coverage/
